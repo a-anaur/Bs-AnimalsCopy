@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;600&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background: linear-gradient(90deg, #3B57F1 0%, #480909 100%);
+    font-family: 'Michroma', sans-serif;
+}
+
+p {
+    color:aquamarine
+}
+
+a {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(192, 197, 195);
+} 
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(168, 164, 158); 
+}
+
+.card {
+    height: 500px;
+    box-shadow: 17px 10px 19px 6px #E27373;
+    
+}
+
+.card-body {
+    background: linear-gradient(270deg, #3B57F1 0%, #480909 100%);
+}
+
+.card-body h5 {
+    color: yellow;
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #3B57F1 0%, #480909 100%);
+}
+.sidebar p a {
+    color: yellow;
+    
+}
+
+.cat1 {
+    color: yellow;
+}
+
+.left-content {
+    background: linear-gradient(90deg, #3B57F1 0%, #480909 100%);
+    font-size: 12px;
+}
+
+.left-content h5 {
+    color: yellow;
+}
+
+.carousel-item p a {
+    color: yellow;
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer img {
+    width: 40px;
+    margin-right: 20px;
+}
+ 
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer, .btn-outline-primary {
+    background: linear-gradient(270deg, #3B57F1 0%, #480909 100%);
+}
+
+.media-links img {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.phone-icon {
+    width: 60px;
+}
+
+.phone-icon {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.btn-outline-primary {
+    color: aquamarine
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(90deg, #3B57F1 0%, #480909 100%);
+    color: yellow;
+    border: 1px solid red;
+}
